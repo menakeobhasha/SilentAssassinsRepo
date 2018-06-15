@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<decorators defaultdir="/template">
+    <decorator name="main" page="MasterPage.jsp">
+       <pattern>/pages/*</pattern>
+       <!--<pattern>/Folder_name2/test.jsp</pattern>-->
+    </decorator>
+</decorators> 
