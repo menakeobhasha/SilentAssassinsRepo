@@ -20,7 +20,9 @@
     </session-config>
     <welcome-file-list>
         <!--<welcome-file>faces/index.html</welcome-file>-->
-        <welcome-file>faces/Pages/Dashboard.jsp</welcome-file>
+        <welcome-file>faces/Pages/Login.jsp</welcome-file>        
+        <!--<welcome-file>faces/Pages/Company/CompanyView1.jsp</welcome-file>-->
+
 
     </welcome-file-list>
     <filter>

@@ -1,11 +1,10 @@
 <%-- 
-    Document   : Test
-    Created on : Jun 16, 2018, 12:44:51 AM
+    Document   : PlayerView1
+    Created on : Jun 16, 2018, 11:49:56 AM
     Author     : Menake
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@include file="../MasterPage.jsp" %>
 <!DOCTYPE html>
 <html>
     <head>

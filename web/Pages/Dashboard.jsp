@@ -8,14 +8,18 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <%--<%@include file="../Shared/stylesheet.jsp" %>--%>
+        <jsp:include page="../Shared//StyleForPages.jsp" />
+
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
-    <body>
-        <%@include file="../Shared/header.jsp" %>
-        <div class="content-wrapper">
-            <h1>Hello</h1>
-        </div>
-        <%@include file="../Shared/footer.jsp" %>
+    <body class="hold-transition skin-blue sidebar-mini">
+        <%--<%@include file="../Shared/header.jsp" %>--%>
+        <%--<jsp:include page="../Shared/sider.jsp" />--%>
+        <jsp:include page="../Shared/headerForPages.jsp" />
+        
+        <jsp:include page="../Shared/footerForPages.jsp" />
+        
     </body>
 </html>
